@@ -1,70 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="/favicon.png">
-    <title>TheRealOk - Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TheRealOk - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/favicon.png">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="/services">Services</a></li>
-                <li><a href="/partners">Partners</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="/chat">Chat</a></li>
-                <li><a href="/yahtzee">Yahtzee</a></li>            </ul>
-        </nav>
-    </header>
-    
-    <section id="home" class="hero">
-        <h1>Welcome to TheRealOk.com</h1>
-        <p>Experience life like never before.</p>
-        <br>
-        <a href="#contact" class="btn">Contact Us</a>
-    </section>
-    
-    <section id="about" class="about">
-        <div class="about-content">
-            <h2>TheRealOk</h2>
-            <p style="margin-top: 40px;">Welcome to TheRealOk.com, your gateway to an unparalleled world of cutting-edge innovation and seamless product integration. We are at the forefront of redefining excellence, pushing the boundaries of what's possible in our realm of expertise. At TheRealOk.com, we take pride in delivering high-quality solutions that seamlessly blend technology, creativity, and expertise. </p>
-            <p style="margin-top: 40px;">Our commitment to staying ahead of the curve has established us as industry leaders, consistently setting new standards and revolutionizing the way our products and services are experienced. Our dedication to innovation ensures that we continue to pave the way for a future where your needs are not just met, but anticipated and exceeded.</p>
-            <p style="margin-top: 40px;">Here at TheRealOk.com, we invite you to explore the extraordinary. Our commitment to excellence and forward-thinking approach has elevated us to a position of prominence in the industry, and we're here to provide you with the finest in innovation. Join us on this remarkable journey and discover the limitless possibilities that await you. Welcome to a world where extraordinary meets the exceptional - welcome to TheRealOk.com.</p>
-        <br>
-        </div>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">TheRealOk</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/partners">Partners</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="/chat">Chat</a></li>
+        <li><a href="/yahtzee">Yahtzee</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-overlay">
+      <h1>Welcome to TheRealOk.com</h1>
+      <p>Experience life like never before.</p>
+      <a href="#contact" class="btn primary">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container about-content">
+      <div class="text">
+        <h2>About TheRealOk</h2>
+        <p>Welcome to TheRealOk.com, your gateway to innovation and seamless integration. We redefine excellence, pushing boundaries with solutions that merge technology, creativity, and expertise.</p>
+        <p>Our forward-thinking approach keeps us ahead of the curve, ensuring your needs are not just met, but anticipated and exceeded.</p>
+        <p>Join us in exploring the extraordinary, where innovation meets excellence.</p>
+      </div>
+      <div class="image">
         <img src="about-image.jpg" alt="Luxury Interior">
-    </section>
-    
-    <section id="services" class="services">
-        <h2>Our Services:</h2>
-        <br>
-        <ul>
-            <li><strong>Premium Product Offerings</strong></li>
-            <li><strong>Advanced Technological Solutions</strong></li>
-            <li><strong>Innovative Service Portfolio</strong></li>
-            <li><strong>State-of-the-Art Product Lineup</strong></li>        
-            <li><strong>Cutting-Edge Technology Integration</strong></li>    
-        </ul>
-    <br>
-    <p>Learn more about our services:</p>
-    <br>
-    <a href="/services" class="btn">Services</a>
-    </section>
-    
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <br>
-        <p>If you're ready to experience the extraordinary, get in touch with us today.</p> 
-        <br>
-        <a href="mailto:therealokgaming@gmail.com" class="btn">Email Us</a>
-    </section>
-    
-    <footer>
-        <p>&copy; 2023 TheRealOk</p>
-    </footer>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Premium Products</h3>
+          <p>Curated selections designed to redefine quality and exceed expectations.</p>
+        </div>
+        <div class="card">
+          <h3>Advanced Solutions</h3>
+          <p>Harnessing cutting-edge tech to solve challenges and drive innovation.</p>
+        </div>
+        <div class="card">
+          <h3>Innovative Portfolio</h3>
+          <p>Diverse services built with creativity to meet your unique needs.</p>
+        </div>
+        <div class="card">
+          <h3>State-of-the-Art Lineup</h3>
+          <p>Modern products that blend design, efficiency, and performance.</p>
+        </div>
+        <div class="card">
+          <h3>Technology Integration</h3>
+          <p>Seamless adoption of the latest technologies to keep you ahead.</p>
+        </div>
+      </div>
+  
+      <!-- Centered button wrapper -->
+      <div class="services-btn">
+        <a href="/services" class="btn primary">Explore Services</a>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>If you're ready to experience the extraordinary, get in touch with us today.</p>
+      <a href="mailto:therealokgaming@gmail.com" class="btn primary">Email Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 TheRealOk</p>
+  </footer>
 </body>
 </html>
